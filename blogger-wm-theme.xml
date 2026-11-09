@@ -6,11 +6,6 @@
   <meta content='width=device-width, initial-scale=1, viewport-fit=cover' name='viewport'/>
   <meta content='#060706' name='theme-color'/>
   <b:include data='blog' name='all-head-content'/>
-  <!-- Favicon: Wm monogram, served from the GitHub repo via jsDelivr CDN (works in every browser incl. Safari). The data URI at the end is an offline SVG fallback for Chromium/Firefox -->
-  <link href='https://cdn.jsdelivr.net/gh/worthmindbd/blogger-wm@main/assets/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
-  <link href='https://cdn.jsdelivr.net/gh/worthmindbd/blogger-wm@main/assets/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'/>
-  <link href='https://cdn.jsdelivr.net/gh/worthmindbd/blogger-wm@main/assets/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'/>
-  <link href='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwNjA3MDYiLz48dGV4dCB4PSIzMiIgeT0iNDMiIGZvbnQtZmFtaWx5PSJNZW5sbyxDb25zb2xhcyxEZWphVnUgU2FucyBNb25vLG1vbm9zcGFjZSIgZm9udC1zaXplPSIyOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2E3ZjNhMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+V208L3RleHQ+PC9zdmc+Cg==' rel='icon' sizes='any' type='image/svg+xml'/>
 
   <b:if cond='data:view.isHomepage'>
     <title><data:blog.title.escaped/></title>
