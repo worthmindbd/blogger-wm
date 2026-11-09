@@ -2,6 +2,8 @@
 
 A frosted-glass Blogger theme in black, white and light green. It has a full-width layout and shows a sidebar on post pages only.
 
+![Blogger WM theme preview](docs/screenshot.png)
+
 ## Install
 1. Blogger dashboard → **Theme** → ▾ next to *Customize* → **Backup** (download your current theme first).
 2. Same menu → **Restore** → upload `blogger-wm-theme.xml`.
@@ -51,7 +53,7 @@ In **Layout**, each ad slot's name shows the recommended size. Click *Add a Gadg
 - **Accent color**: Theme → Customize → Advanced → *Accent (light green)*.
 - **Container width**: `--container` in the CSS (default `1600px`).
 - **Fonts**: Geist (UI) and Instrument Serif (headlines), loaded from Google Fonts.
-- **Favicon**: an inline SVG monogram ("Wm" on a dark tile in the theme's accent green) is embedded in the theme head, so it needs no external file. To use a different one, upload an image in Settings → Favicon, then delete the `favicon` link line in Theme → Edit HTML (the line holds a `data:image/svg+xml` address).
+- **Favicon**: a "Wm" monogram (dark tile in the theme's accent green), loaded from this repo's `assets/` folder through the jsDelivr CDN, with an inline SVG fallback in the head for offline use. To use a different one: replace the files in `assets/`, or edit the `favicon` link lines in Theme → Edit HTML. On your own blog the quickest route is Settings → Favicon (upload an image there; the theme's links take precedence in Chromium and Firefox).
 
 ## Built-in features
 Dark/light mode (follows the system setting and remembers the reader's choice), search overlay (⌘K / Ctrl K / `/`), reading progress bar, reading time, auto-generated table of contents with scroll highlighting, share buttons and copy-link, related posts (matched by the post's first label), previous/next post links, styled threaded comments, scroll-reveal animations and a back-to-top button.
