@@ -1,0 +1,9 @@
+# Personal working copy (contains Monetag meta + live ad zone IDs) — never publish
+blogger-wm-theme.personal.xml
+
+# Local pipeline that strips personal data for the public copy
+strip-for-public.py
+
+# Old local snapshots / Blogger exports (may contain personal ad codes)
+blogger-wm-theme.pre-merge.xml
+theme-*.xml
